@@ -1,0 +1,60 @@
+.base {
+    background-color: #333;
+    color: #fff;
+    /* $primary-color: #008ed6; */
+    /* $dark-overlay: rgba(0,0,0,0.7); */
+    /* Sass can use variables and can nest classes */
+    /* icon-size: 30px; */
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url('../img/looplab_family.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section .dark-overlay {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay .home-inner {
+    padding-top: 150px;
+}
+
+.card-form {
+    opacity: 0.8;
+}
+.fah {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+/* explore section */
+.fae {
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    font-size: 30px;
+}
+
+/* create-section */
+/* fa-home was used also */
+
+
